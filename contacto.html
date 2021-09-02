@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/index.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header> 
+    <div class="navbar">
+        <a href="index.html">
+            <img src="/Images/logo_paola(1).svg" alt="psicopaolaFlorez" id="logoNegro">
+        </a>
+        <nav class="navMenu">
+            <ul>
+                <li><a href="psicoterapiaOnline.html">Psicoterapia Online</a></li>
+                <li><a href="terapias.html">Terapias</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>   
+    </div>
+    </header>
+        <form action="">
+        <h1>Contacto</h1>
+        <br>
+        <p>Ya muchas personas en el país, se encuentran experimentando esta modalidad. ¡Consultanos!</p>
+        <br>
+           <input type="text" name="name" placeholder="Nombre">
+            <input type="text" name="lastname" placeholder="Apellido">
+            <input type="mail" name="email" required placeholder="Email">  
+            <label for="problematica">Motivo de consulta:</label>
+            <textarea name="problematica" id="" cols="60" rows="10" placeholder="Indicar problemática a tratar"></textarea>
+            <div id="oculto" style="display: none;"> Se envio la información </div>        
+             <button id="btnEnviar">Enviar información</button>
+             <button id="ocultarInf">Reiniciar</button> 
+        </form>
+        <footer> 
+            <i class="fab fa-facebook-square"></i>
+            <p>Correo electrónico: psicopaolaflorez@gmail.com</p>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>            
+    <script src="/JS/animaciones.js"></script>
+</body>
+</html>

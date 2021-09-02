@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+
+  font-style: initial;
+}
+
+@media screen and (max-width:360px) {
+  .grid-container
+  #about-first-section .contacto{
+   flex-direction: column; 
+  }
+}
+@media screen and (max-width:760px) {
+    .grid-container
+    #about-first-section .contacto{
+     flex-direction: column; 
+    }
+  }
+@media screen and (max-width:1300px) {
+    .grid-container
+     #about-first-section .contacto{
+    flex-direction: column; 
+    }
+  }
+/*Index*/
+body {
+  font-family: 'Aleo', serif;
+  background-image: url(/Images/trastornos-alimentarios-mejores-psicologos-online-default.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    position: relative;
+    top: 0;
+    font-family: 'Aleo', serif;
+  }
+
+  .navMenu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-style: initial;
+    font-size:20px;
+    font-family: 'Aleo', serif;
+    text-align: center;
+  }
+  
+
+  .navMenu li a{
+    margin-right: 1.5rem;
+    display: block;
+    font-style: initial;
+    font-family: 'Aleo', serif;
+    color: #363032;
+  }
+  .navMenu a:hover {
+    color: #F8BF85;
+  }
+  .navMenu li:last-child {
+    background-color: #186365;
+    padding: 1rem 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    display: flex;
+    
+  }
+  .navMenu li:hover {
+    background: transparent;
+    transition: all;
+  }
+
+.animacion {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #186365;
+  padding:1rem;
+  color: #F9F9F9;
+  font-style: initial;
+  font-size:18px;
+  height: 70vh;
+}
+
+.animacion div {
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content:space-between;
+  margin: 20px;
+  font-size: 18px;
+  height: 70vh;
+
+
+}
+
+header {
+  display: flex;
+  justify-content:flex-end;
+  align-items:initial;
+  height: 15vh;
+}
+
+.headerContent {
+  margin: auto;
+  display: flex;
+  align-items:center;
+  justify-content:flex-start;
+  width: 100%;
+  height: 100%;
+  background-color: #F8BF85;
+  background-image:url(/Images/Foto_pao.jpeg);
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: 50%;
+  padding:3rem;
+  color: #363032;
+  font-style: initial;
+  font-size:18px;
+  height: 70vh;
+}
+.headerTitle {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content:center;
+  padding: 1rem;
+  height: 60vh 
+ }
+
+.terapiasOnline {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  flex-direction: column;
+  align-items: left;
+  justify-content:center;
+  padding:0;
+  height: 70vh;
+  background-color: #186365;
+}
+
+
+#logoNegro {
+  width: 300px;
+  height: 380px;
+  padding-top:2rem;
+  display: flex;
+  justify-content: left;
+  background-image: initial;
+  background-repeat: no-repeat;
+}
+.headerImgen {
+  height: 800px;
+  width: 1000px;
+  background-image: url(/Images/);
+  background-repeat: no-repeat;
+}
+
+.titulos {
+  font-family: 'Aleo', serif;
+  color: rgb(49, 49, 49);
+  font-style: initial;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 60px;
+  width: 1200px;
+  height: auto;
+  padding: 5px;
+}
+form {
+  font-family: 'Aleo', serif;
+  color:white;
+  font-size: 1.5rem;
+  font-style: initial;
+  width: 550px;
+  margin: auto;
+  background: black;
+  padding: 10px 60px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+input, textarea {
+  width: 100%;
+  margin: 0;
+  font-size: 15px;
+  padding: 10px;
+  margin: 0.5rem;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  margin: 0;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0.5rem;
+  color:black;
+  background: #F8BF85;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.titulosCo {
+  font-family: 'Aleo', serif;
+  color: rgb(49, 49, 49);
+  font-style: initial;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+ }
+.parrafo {
+  color: rgb(49, 49, 49);
+  font-family: 'Aleo', serif;
+  text-align: left;
+  text-transform: initial;
+  line-height: normal;
+  text-decoration-line: inherit;
+  letter-spacing: 0vh;
+  font-size: 1rem;
+  width: 60%;
+}
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f3e3e;
+  margin-top: 2rem;
+  flex-flow: initial;
+  align-content: flex-end;
+  color: #F9F9F9;
+}
+
+ .contacto{
+  margin-top: 3rem ;
+  top: 50%;
+  left: 50%;
+  width: 30%;  
+  height: 30%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items:baseline;
+  background-color: black;
+  color: #3f3e3e;
+  font-family: 'Aleo', serif;
+  border-style: double;
+  height: 70vh;
+}
+
+.formularioEnviado{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.psicoterapia{
+  text-align: center;
+}
+.testimonio {
+font-style:inherit;
+color: #186365;
+font-size: 20px;
+}
